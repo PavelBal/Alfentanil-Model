@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -362,7 +362,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -452,7 +452,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -467,7 +467,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -889,7 +889,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -1757,7 +1757,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Ferrier 1985, Alfentanil iv 0.05 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ferrier 1985, Alfentanil iv 0.05 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)|Time",
+              "Y": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Ferrier 1985, Alfentanil iv 0.05 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nFerrier 1985, Alfentanil iv 0.05 mg/kg\n2019-11-29 13:35"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Ferrier 1985, Alfentanil iv 0.05 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ferrier 1985, Alfentanil iv 0.05 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)|Time",
+              "Y": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Ferrier 1985, Alfentanil iv 0.05 mg/kg - linear",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nFerrier 1985, Alfentanil iv 0.05 mg/kg\n2019-11-29 13:35"
+        }
+      ]
     },
     {
       "Name": "Kharasch 1997, Alfentanil iv 0.02 mg/kg",
@@ -1837,7 +1973,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 1997, Alfentanil iv 0.02 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 1997, Alfentanil iv 0.02 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)|Time",
+              "Y": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 1997, Alfentanil iv 0.02 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 1997, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:35"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 1997, Alfentanil iv 0.02 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 1997, Alfentanil iv 0.02 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)|Time",
+              "Y": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 1997, Alfentanil iv 0.02 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 1997, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:35"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2004, Alfentanil iv 0.015 mg/kg",
@@ -1917,7 +2189,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2004, Alfentanil iv 0.015 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2004, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)|Time",
+              "Y": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2004, Alfentanil iv 0.015 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2004, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2004, Alfentanil iv 0.015 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2004, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)|Time",
+              "Y": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2004, Alfentanil iv 0.015 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2004, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2004, Alfentanil po 0.06 mg/kg",
@@ -2231,7 +2639,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2004, Alfentanil po 0.06 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2004, Alfentanil po 0.06 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)|Time",
+              "Y": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2004, Alfentanil po 0.06 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2004, Alfentanil po 0.06 mg/kg\n2019-11-29 13:34"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2004, Alfentanil po 0.06 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2004, Alfentanil po 0.06 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)|Time",
+              "Y": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2004, Alfentanil po 0.06 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2004, Alfentanil po 0.06 mg/kg\n2019-11-29 13:34"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2011, Alfentanil iv 0.015 mg/kg",
@@ -2311,7 +2855,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011, Alfentanil iv 0.015 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|Time",
+              "Y": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011, Alfentanil iv 0.015 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011, Alfentanil iv 0.015 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|Time",
+              "Y": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011, Alfentanil iv 0.015 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2011, Alfentanil po 0.075 mg/kg",
@@ -2625,7 +3305,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011, Alfentanil po 0.075 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011, Alfentanil po 0.075 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)|Time",
+              "Y": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011, Alfentanil po 0.075 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011, Alfentanil po 0.075 mg/kg\n2019-11-29 13:34"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011, Alfentanil po 0.075 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011, Alfentanil po 0.075 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)|Time",
+              "Y": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011, Alfentanil po 0.075 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011, Alfentanil po 0.075 mg/kg\n2019-11-29 13:34"
+        }
+      ]
     },
     {
       "Name": "Meistelman 1987, 20µg/kg, adult male individual",
@@ -2705,7 +3521,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Meistelman 1987, 20µg/kg, adult male individual-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Meistelman 1987, 20µg/kg, adult male individual|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Meistelman_1987_Figure_1 adults-Alfentanil-Peripheral Venous Blood-Plasma-Alfentanil concentration ",
+              "X": "Meistelman_1987_Figure_1 adults|Reported time ",
+              "Y": "Meistelman_1987_Figure_1 adults|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alfentanil concentration ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Meistelman 1987, 20µg/kg, adult male individual - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nMeistelman 1987, 20µg/kg, adult male individual\n2019-11-29 13:32"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Meistelman 1987, 20µg/kg, adult male individual-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Meistelman 1987, 20µg/kg, adult male individual|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Meistelman_1987_Figure_1 adults-Alfentanil-Peripheral Venous Blood-Plasma-Alfentanil concentration ",
+              "X": "Meistelman_1987_Figure_1 adults|Reported time ",
+              "Y": "Meistelman_1987_Figure_1 adults|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alfentanil concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Meistelman 1987, 20µg/kg, adult male individual - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nMeistelman 1987, 20µg/kg, adult male individual\n2019-11-29 13:32"
+        }
+      ]
     },
     {
       "Name": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg",
@@ -2785,7 +3737,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)|Time",
+              "Y": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:33"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)|Time",
+              "Y": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:33"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2011b, Alfentanil IV 1 mg",
@@ -2883,7 +3971,209 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011b, Alfentanil IV 1 mg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011b, Alfentanil IV 1 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011b, Alfentanil IV 1 mg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil IV 1 mg\n2019-11-29 13:33"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011b, Alfentanil IV 1 mg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011b, Alfentanil IV 1 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011b, Alfentanil IV 1 mg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil IV 1 mg\n2019-11-29 13:33"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2011b, Alfentanil PO 4 mg",
@@ -3209,7 +4499,165 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011b, Alfentanil PO 4 mg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011b, Alfentanil PO 4 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011b, Alfentanil PO 4 mg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil PO 4 mg\n2019-11-29 13:28"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011b, Alfentanil PO 4 mg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011b, Alfentanil PO 4 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2011b, Alfentanil PO 4 mg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil PO 4 mg\n2019-11-29 13:28"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2012, Alfentanil iv 0.02 mg/kg",
@@ -3289,7 +4737,145 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01666667,
+              "Max": 8.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2012, Alfentanil iv 0.02 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2012, Alfentanil iv 0.02 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch2012_Alfentanil_alone_IV-Alfentanil-Peripheral Venous Blood-Plasma-Control (Plasma conc) ",
+              "X": "Kharasch2012_Alfentanil_alone_IV|Time (1)",
+              "Y": "Kharasch2012_Alfentanil_alone_IV|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Control (Plasma conc) ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2012, Alfentanil iv 0.02 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2012, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:44"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2012, Alfentanil iv 0.02 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2012, Alfentanil iv 0.02 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch2012_Alfentanil_alone_IV-Alfentanil-Peripheral Venous Blood-Plasma-Control (Plasma conc) ",
+              "X": "Kharasch2012_Alfentanil_alone_IV|Time (1)",
+              "Y": "Kharasch2012_Alfentanil_alone_IV|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Control (Plasma conc) ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2012, Alfentanil iv 0.02 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2012, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:44"
+        }
+      ]
     },
     {
       "Name": "Kharasch 2012, Alfentanil po 0.043 mg/kg",
@@ -3383,7 +4969,147 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.1226019,
+              "Max": 7.875294,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.2469835,
+              "Max": 50.38035,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2012, Alfentanil po 0.043 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2012, Alfentanil po 0.043 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch2012_Alfentanil_alone_po-Alfentanil-Peripheral Venous Blood-Plasma-Control (Plasma conc) ",
+              "X": "Kharasch2012_Alfentanil_alone_po|Time (1)",
+              "Y": "Kharasch2012_Alfentanil_alone_po|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Control (Plasma conc) ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2012, Alfentanil po 0.043 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2012, Alfentanil po 0.043 mg/kg\n2019-11-29 13:43"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2012, Alfentanil po 0.043 mg/kg-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2012, Alfentanil po 0.043 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch2012_Alfentanil_alone_po-Alfentanil-Peripheral Venous Blood-Plasma-Control (Plasma conc) ",
+              "X": "Kharasch2012_Alfentanil_alone_po|Time (1)",
+              "Y": "Kharasch2012_Alfentanil_alone_po|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Control (Plasma conc) ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Kharasch 2012, Alfentanil po 0.043 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alfentanil\nKharasch 2012, Alfentanil po 0.043 mg/kg\n2019-11-29 13:43"
+        }
+      ]
     }
   ],
   "ParameterIdentifications": [
@@ -3415,12 +5141,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -3440,7 +5166,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -3651,7 +5377,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 7.38E-05,
+              "Value": 7.38e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -3674,13 +5400,13 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 3.48E-06,
+              "Value": 3.48e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 3.48E-07,
+              "Value": 3.48e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -3816,7 +5542,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 3.1E-05,
+              "Value": 3.1e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -3925,12 +5651,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -3950,7 +5676,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]

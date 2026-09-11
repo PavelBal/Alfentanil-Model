@@ -2365,12 +2365,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|60 µg/kg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
           "Value": 0.00054148029829,
           "Unit": "cm/min",
@@ -3030,12 +3024,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|75 µg/kg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
           "Value": 0.00054148029829,
@@ -4214,18 +4202,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Kharasch 2011b 4 mg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Kharasch 2011b 4 mg PO|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
           "Value": 0.00054148029829,
           "Unit": "cm/min",
@@ -4911,14 +4887,6 @@
               }
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|43 µg/kg PO (Kharasch 2012)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [

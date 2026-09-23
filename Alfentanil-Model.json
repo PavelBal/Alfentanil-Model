@@ -1436,6 +1436,268 @@
             "Source": "Unknown"
           }
         }
+      ],
+      "OverwriteParameterSets": [
+        {
+          "Name": "Alfentanil - Human",
+          "IsDefault": true,
+          "ExtendedProperties": [
+            {
+              "Name": "Species",
+              "Value": "Human",
+              "Type": "String"
+            },
+            {
+              "Name": "Disease State",
+              "Value": "Healthy",
+              "Type": "String"
+            }
+          ],
+          "ParameterValues": [
+            {
+              "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            },
+            {
+              "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
+              "Value": 0.00054148029829,
+              "Dimension": "Velocity",
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            }
+          ]
+        }
       ]
     }
   ],
@@ -1901,6 +2163,12 @@
           },
           "OriginText": "Alfentanil\nFerrier 1985, Alfentanil iv 0.05 mg/kg\n2019-11-29 13:35"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
+        }
       ]
     },
     {
@@ -2116,6 +2384,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nKharasch 1997, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:35"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
         }
       ]
     },
@@ -2333,6 +2607,12 @@
           },
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
+        }
       ]
     },
     {
@@ -2376,226 +2656,6 @@
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
         }
       ],
       "OutputSelections": [
@@ -2782,6 +2842,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil po 0.06 mg/kg\n2019-11-29 13:34"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
         }
       ]
     },
@@ -2999,6 +3065,12 @@
           },
           "OriginText": "Alfentanil\nKharasch 2011, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
+        }
       ]
     },
     {
@@ -3042,226 +3114,6 @@
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
         }
       ],
       "OutputSelections": [
@@ -3448,6 +3300,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nKharasch 2011, Alfentanil po 0.075 mg/kg\n2019-11-29 13:34"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
         }
       ]
     },
@@ -3665,6 +3523,12 @@
           },
           "OriginText": "Alfentanil\nMeistelman 1987, 20µg/kg, adult male individual\n2019-11-29 13:32"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
+        }
       ]
     },
     {
@@ -3880,6 +3744,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:33"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
         }
       ]
     },
@@ -4181,6 +4051,12 @@
           },
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil IV 1 mg\n2019-11-29 13:33"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
+        }
       ]
     },
     {
@@ -4231,226 +4107,6 @@
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-          }
         }
       ],
       "OutputSelections": [
@@ -4664,6 +4320,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil PO 4 mg\n2019-11-29 13:28"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
         }
       ]
     },
@@ -4882,6 +4544,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nKharasch 2012, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:44"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
         }
       ]
     },
@@ -5116,6 +4784,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nKharasch 2012, Alfentanil po 0.043 mg/kg\n2019-11-29 13:43"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Alfentanil",
+          "OverwriteParameterSetName": "Alfentanil - Human"
         }
       ]
     }
